@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAA;EACA,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,KAAK;CACf;;AACD,AAAA,gBAAgB,CAAA;EACZ,aAAa,EAAE,IAAI;EACnB,YAAY,EAAE,KAAK;EACnB,YAAY,EAAE,GAAG;EACjB,YAAY,EAAE,KAAK;CACtB",
+    "sources": [
+        "loginPage.scss"
+    ],
+    "names": [],
+    "file": "loginPage.css"
+}

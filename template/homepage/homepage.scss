@@ -1,0 +1,31 @@
+#app{
+    padding: 0;
+}
+#body{
+    padding: 0;
+    position: relative;
+    height: 80vh;
+    width: 100vw;
+    .bg-img{
+        background-image: url(https://wearecardinals.com/wp-content/uploads/2020/04/u1Re9qgMfM8d6kumlW85PS6s55jQh5fbdmppgQsP.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        // opacity: 0.3;
+        background-position: center;
+        height: inherit;
+        width: inherit;
+    }
+    .body-content{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        color: #fff;
+        backdrop-filter: blur(8px);
+        width: 100%;
+        box-sizing: border-box;    
+        height: inherit;
+        width: inherit;
+        margin: 0;
+    }
+}
