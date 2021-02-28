@@ -6,10 +6,6 @@
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0"
-      <!--
-      Font
-      Awesome
-      --
     />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
@@ -25,22 +21,26 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
       rel="stylesheet"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <!-- font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">  
-    <title>insert meaningful title here</title>
+    <script src="https://kit.fontawesome.com/88fcee8aa9.js" crossorigin="anonymous"></script>
+
+    <title>SportConnect</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/landingPage/landingPage.css" />
   </head>
   <body>
     <div id="app" class="container-fluid">
-      <!-- Navbar -->
+      <!-- Navbar --> 
       <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
         <!-- Container wrapper -->
         <div class="container-fluid">
           <!-- Navbar brand -->
-          <a class="navbar-brand" href="#">Brand</a>
+          <a class="navbar-brand" href="#">SportConnect</a>
 
           <!-- Toggle button -->
           <button
@@ -60,10 +60,10 @@
             <!-- Left links -->
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Challenges</a>
+                <a class="nav-link" href="abtChallenge.html">Challenges</a>
               </li>
               <!-- Navbar dropdown -->
             </ul>
@@ -71,27 +71,33 @@
 
             <!-- login register btn -->
             <div class="d-flex justify-content-around">
-              <button class="btn btn-primary">REGISTER</button>
-              <button class="btn btn-light pl-3">LOGIN</button>
+              <button id="header-register" class="btn btn-primary">REGISTER</button>
+              <button id="header-login" class="btn btn-light pl-3">LOGIN</button>
             </div>
           </div>
           <!-- Collapsible wrapper -->
         </div>
-        <!-ui- Container wrapper -->
       </nav>
       <!-- Navbar -->
       <section id="body" class="container-fluid col">
         <div class="bg-img"></div>
         <div class="container-fluid col-6 body-content row align-items-center">
           <div class="container text-center">
-              <h1 style="width: 40%;"><b>Connecting people by sharing our workout results</b></h1>
-              <button class="btn btn-primary">Join now</button>
-
+              <h1 style="width: 40vw; margin: auto; margin-bottom: 10px;"><b>Connecting people by sharing our workout results</b></h1>
+              <button id="link-to-register" class="btn btn-primary">Join now</button>
           </div>
         </div>
+      </section>
+      <section id="motto" class="container-fluid col">
+        <h1 style="text-align: center;"><b>WHO ARE WE?</b></h1>
+        <span>We are a team who believes that by keeping fit together and share our results, we can connect with 
+          each other during the pandemic. Therefore, we design SportConnect, an website which we can take part in 
+          fitness challenges and to share our results with the world. There are many different challenges to take,
+          from fitness challenges like pushups to sport challenges like long-distance running.
+        </span>
       </section>
       <section id="challenge" class="container-fluid col">
-        <h1 id="challenge-title" class="">Challenge List</h1>
+        <h1 id="challenge-title" class=""><b>MOST POPULAR CHALLENGES</b></h1>
         <div id="challenge-list">
           <div class="challenge-box border row">
             <div class="left col-lg-4">
@@ -107,11 +113,11 @@
         <div id="challenge-list">
           <div class="challenge-box border row">
             <div class="left col-lg-4">
-              <img class="challenge-image" src="https://assets.gqindia.com/photos/5cee7eb00379a73d25177759/master/pass/Pushup.jpg">
+              <img class="challenge-image" src="https://i.pinimg.com/originals/9b/a2/af/9ba2af7486950a926c19763bbe7c05b3.jpg">
             </div>
             <div class="right col-lg-8">
-              <h2>Push-up Challenge</h2>
-              <p>Try to beat your record everyday for a week, then share your results here!</p>
+              <h2>Running Challenge</h2>
+              <p>Can you run 10, 20 or even 50 kilometers in a week?</p>
               <button type="button" class="btn btn-primary">Start here</button>
             </div>
           </div>
@@ -119,17 +125,21 @@
         <div id="challenge-list">
           <div class="challenge-box border row">
             <div class="left col-lg-4">
-              <img class="challenge-image" src="https://assets.gqindia.com/photos/5cee7eb00379a73d25177759/master/pass/Pushup.jpg">
+              <img class="challenge-image" src="/assets/img/jump-rope-skipping-isolated-on-260nw-1028024359.jpg">
             </div>
             <div class="right col-lg-8">
-              <h2>Push-up Challenge</h2>
-              <p>Try to beat your record everyday for a week, then share your results here!</p>
+              <h2>Jump-rope Challenge</h2>
+              <p>A children's game but requires lots of strength and dexterity!</p>
               <button type="button" class="btn btn-primary">Start here</button>
             </div>
           </div>
         </div>
       </section>
-      <footer id="footer" class="container-fluid">Created by The Acer Team</footer>
+      <footer id="footer" class="container-fluid">
+        <div>SportConnect Version 1.0 - Created in Appjamming Summit 2020</div>
+        <div>Contact Us:</div>
+        <i class="far fa-envelope"></i><span class="pl-1">ptlam61004@gmail.com</span>
+      </footer>
     </div>
 
     <!-- MDB -->
@@ -137,5 +147,6 @@
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"
     ></script>
+    <script src="js/index.js"></script>
   </body>
 </html>

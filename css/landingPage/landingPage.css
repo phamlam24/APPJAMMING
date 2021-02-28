@@ -1,10 +1,9 @@
-body{
-  background-color: #f3f3f3;
-}
 #app {
   padding: 0;
 }
-
+body{
+  overflow-x: hidden;
+}
 #body {
   padding: 0;
   position: relative;
@@ -32,8 +31,8 @@ body{
   width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  height: inherit;
-  width: inherit;
+  height: 100%;
+  width: 100%;
   margin: 0;
 }
 /*# sourceMappingURL=homepage.css.map */
@@ -41,19 +40,25 @@ body{
   margin-top: 20px;
 }
 #challenge-title{
-  margin-top: 20px;
+  margin-top: 30px;
   margin: auto;
   width: 50%;
   text-align: center;
 }
 #challenge-list{
-  margin: 30px;
-  margin-top: 10px
+  width: 65%;
+  margin: auto;
+  margin-top: 30px;
 }
 .challenge-box{
   padding: 20px;
+  background-color: white;
+  -webkit-box-shadow: 0 0 20px lightgray;
+        box-shadow: 0 0 20px lightgray;
 }
-
+.left{
+  height: 170px;
+}
 .challenge-image{
   width: 100%;
 }
@@ -61,3 +66,10 @@ body{
   margin-top: 10px;
 }
 /*# sourceMappingURL=landingPage.css.map */
+#motto{
+  display: block;
+  color: white;
+  background-color: black;
+  z-index: 10;
+  padding: 2em 5em 2em 5em;
+}
