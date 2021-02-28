@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="./css/mdb.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Document</title>
+    <style>
+        body{
+            height: fit-content;
+            background-color: #f3f3f3;
+        }
+        nav{
+            top: 0; 
+            z-index: 100; 
+        }
+        ul{
+            column-count: 3;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light w-100 position-sticky">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+          <!-- Navbar brand -->
+          <a class="navbar-brand" href="#">Brand</a>
+  
+          <!-- Toggle button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+  
+          <!-- Collapsible wrapper -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Left links -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Challenges</a>
+              </li>
+              <!-- Navbar dropdown -->
+            </ul>
+            <!-- Left links -->
+  
+            <!-- login register btn -->
+            <div class="d-flex justify-content-around align-items-center">
+              <svg height="50" width="50">
+                <circle
+                  cx="25"
+                  cy="21"
+                  r="20"
+                  stroke="black"
+                  stroke-width="1"
+                  fill="none"
+                />
+              </svg>
+              <h4>Name</h4>
+            </div>
+          </div>
+          <!-- Collapsible wrapper -->
+        </div>
+        <!--ui- Container wrapper -->
+      </nav>
+      <div class="input-group searchContainer pt-4 d-flex justify-content-center" style="width:100%;" >
+        <div class="form-outline">
+          <input type="search" id="searchForm" class="form-control md-form   " style="width: 75vw"/>
+          <label class="form-label" for="form1">Search</label>
+        </div>
+        <button type="button" class="btn btn-primary">
+          <i class="fas fa-search"></i>
+        </button>
+      </div>
+      <div class="features pt-4">
+          
+            <div class="row d-flex flex-row justify-content-around">
+                <div class="col-lg-4 col-md-5">
+                <div class="card p-2">
+                    <div class="card-header">
+                        Push Up Challenge
+                    </div>
+                    <div class="card-body">
+                        <img style="width: 100%; " src="https://assets.gqindia.com/photos/5cee7eb00379a73d25177759/master/pass/Pushup.jpg" alt="">
+                        <div class="card-header">
+                            OMG HIIII
+                        </div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi hic repellendus iste ratione eius alias beatae magni nihil, dolorem voluptatibus! Repellat molestias minima distinctio atque eveniet dolore! Atque, blanditiis cupiditate.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary">
+                            JOIN NOW
+                        </button>
+                    </div>
+                </div>
+                </div>
+                <div class="col-lg-4 col-md-5">
+                        <div class="card p-2">
+                            <div class="card-header">
+                                Push Up Challenge
+                            </div>
+                            <div class="card-body">
+                                <img style="width: 100%; " src="https://assets.gqindia.com/photos/5cee7eb00379a73d25177759/master/pass/Pushup.jpg" alt="">
+                                <div class="card-header">
+                                    OMG HIIII
+                                </div>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi hic repellendus iste ratione eius alias beatae magni nihil, dolorem voluptatibus! Repellat molestias minima distinctio atque eveniet dolore! Atque, blanditiis cupiditate.</p>
+                            </div>
+                            <div class="card-footer">
+                                <button class="btn btn-primary">
+                                    JOIN NOW
+                                </button>
+                            </div>
+                          </div>
+                </div>
+            </div>
+            <div class="row pt-4 d-flex flex-row justify-content-around">
+                <div class="col-lg-4 col-md-5">
+                <div class="card p-2">
+                    <div class="card-header">
+                        Nhay Day Challenge
+                    </div>
+                    <div class="card-body">
+                        <img style="width: 100%; " src="https://assets.gqindia.com/photos/5cee7eb00379a73d25177759/master/pass/Pushup.jpg" alt="">
+                        <div class="card-header">
+                            OMG HIIII
+                        </div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi hic repellendus iste ratione eius alias beatae magni nihil, dolorem voluptatibus! Repellat molestias minima distinctio atque eveniet dolore! Atque, blanditiis cupiditate.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary">
+                            JOIN NOW
+                        </button>
+                    </div>
+                </div>
+                </div>
+    
+                <div class="col-lg-4 col-md-5">
+                    <div class="card p-2">
+                        <div class="card-header">
+                            Push Up Challenge
+                        </div>
+                        <div class="card-body">
+                            <img style="width: 100%; " src="https://assets.gqindia.com/photos/5cee7eb00379a73d25177759/master/pass/Pushup.jpg" alt="">
+                            <div class="card-header">
+                                OMG HIIII
+                            </div>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi hic repellendus iste ratione eius alias beatae magni nihil, dolorem voluptatibus! Repellat molestias minima distinctio atque eveniet dolore! Atque, blanditiis cupiditate.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-primary">
+                                JOIN NOW
+                            </button>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+      </div>
+      <script src="./js/mdb.min.js"></script>
+      <script src="./js/searchBar.js"></script>
+</body>
+</html>
