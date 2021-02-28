@@ -1,3 +1,6 @@
+body{
+  background-color: #f3f3f3;
+}
 #app {
   padding: 0;
 }
@@ -34,3 +37,26 @@
   margin: 0;
 }
 /*# sourceMappingURL=homepage.css.map */
+#challenge{
+  margin-top: 20px;
+}
+#challenge-title{
+  margin-top: 20px;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+#challenge-list{
+  margin: 30px;
+  margin-top: 10px
+}
+.challenge-box{
+  padding: 20px;
+}
+
+.challenge-image{
+  width: 100%;
+}
+.right{
+  margin-top: 10px;
+}
