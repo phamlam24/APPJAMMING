@@ -1,0 +1,24 @@
+body {
+  background-color: #f3f3f3;
+}
+
+nav {
+  z-index: 3;
+  top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.content-container {
+  z-index: 1;
+  position: relative;
+}
+
+.content-container .video-and-posts {
+  overflow-y: auto;
+}
+
+button {
+  background-color: #f3f3f3;
+}
+/*# sourceMappingURL=abtChallenge.css.map */

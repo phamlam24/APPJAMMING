@@ -1,0 +1,21 @@
+body{
+    background-color: #f3f3f3;
+    // overflow-y: hidden;
+}
+nav{
+    z-index: 3;
+    top: 0;
+    position: sticky;
+}
+.content-container{
+    z-index: 1;
+    position: relative;
+    .video-and-posts{
+        // position: fixed;
+        overflow-y: auto;
+    }
+    // overflow-y: scroll;
+}
+button{
+    background-color: #f3f3f3;
+}
