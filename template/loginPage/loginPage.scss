@@ -1,10 +1,18 @@
 body{
     height: 100vh;
     width: 100vw;
+    margin: 0 !important;
+}
+.row, .container-fluid{
+    margin: 0 !important;
+    // padding: 0 !important;
 }
 .login-container{
-    border-radius: 10px;
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
+    // border-radius: 10px;
+    // border-color: black;
+    // border-width: 2px;
+    // border-style: solid;
+}
+.hidden{
+    display: none;
 }
