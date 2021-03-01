@@ -14,7 +14,7 @@ $(document).ready(function () {
     $("#join-jump-rope").click(()=>{
         window.location.href="challengeJumprope.html"
     })
-    $("#join-sit-up").click(()=>{
-        window.location.href="challengeSitup.html"
+    $("#join-crunch").click(()=>{
+        window.location.href="challengeCrunch.html"
     })
 });
