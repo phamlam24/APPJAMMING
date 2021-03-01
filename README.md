@@ -1,3 +1,5 @@
+GitHub Page link: 
+https://phamlam24.github.io/APPJAMMING
 ## **APPJAMMING SUMMIT PROJECT - SPORTCONNECT**
 
 We believe that by exercising and sharing results, people can connect with each other during the pandemic. Therefore, we design SportConnect, a website where everyone can take part in fitness challenges and share results with your friends. There are many different challenges, from fitness challenges like pushups to sport challenges like long-distance running.
