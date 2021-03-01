@@ -3,3 +3,16 @@ body{
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
 }
+.btn-primary{
+    background-color: orange !important;
+}
+.login-container .nav-item .active{
+    background-color: orange !important;
+    color: white !important;
+}
+.login-container a{
+    color: orange !important;
+}
+.form-check-input{
+    background-color: orange !important;
+}
