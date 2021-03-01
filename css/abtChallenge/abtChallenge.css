@@ -22,3 +22,7 @@ button {
   background-color: #f3f3f3;
 }
 /*# sourceMappingURL=abtChallenge.css.map */
+.photo-container img{
+  max-height: 500px; 
+  width: auto; 
+}
