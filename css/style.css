@@ -16,3 +16,8 @@ body{
 .form-check-input{
     background-color: orange !important;
 }
+footer{
+    margin-top: 4em;
+    background-color: #f3f3f3 !important;
+    color: #cdcaca !important;
+}
