@@ -11,4 +11,7 @@ body {
 .hidden {
   display: none;
 }
+*{
+  font-family: "Open Sans", sans-serif;
+}
 /*# sourceMappingURL=loginPage.css.map */
