@@ -5,4 +5,16 @@ $(document).ready(function () {
             $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
         });
     });
+    $("#join-push-up").click(()=>{
+        window.location.href="challengePushup.html"
+    })
+    $("#join-run").click(()=>{
+        window.location.href="challengeRunning.html"
+    })
+    $("#join-jump-rope").click(()=>{
+        window.location.href="challengeJumprope.html"
+    })
+    $("#join-sit-up").click(()=>{
+        window.location.href="challengeSitup.html"
+    })
 });

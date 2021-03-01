@@ -40,58 +40,49 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light w-100 position-sticky">
-        <!-- Container wrapper -->
-        <div class="container-fluid">
-          <!-- Navbar brand -->
-          <a class="navbar-brand" href="./index.html">SportConnect</a>
-  
-          <!-- Toggle button -->
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-mdb-toggle="collapse"
-            data-mdb-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i class="fas fa-bars"></i>
-          </button>
-  
-          <!-- Collapsible wrapper -->
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <!-- Left links -->
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="./challengeList.html">Challenges</a>
-              </li>
-              <!-- Navbar dropdown -->
-            </ul>
-            <!-- Left links -->
-  
-            <!-- login register btn -->
-            <div class="d-flex justify-content-around align-items-center">
-              <svg height="50" width="50">
-                <circle
-                  cx="25"
-                  cy="21"
-                  r="20"
-                  stroke="black"
-                  stroke-width="1"
-                  fill="none"
-                />
-              </svg>
-              <h4>Name</h4>
-            </div>
+    <!-- Navbar --> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="index.html">SportConnect</a>
+
+        <!-- Toggle button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Left links -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="challengeList.html">Challenges</a>
+            </li>
+            <!-- Navbar dropdown -->
+          </ul>
+          <!-- Left links -->
+
+          <!-- login register btn -->
+          <div class="d-flex justify-content-around">
+            <button id="header-register" class="btn btn-primary link-to-register">REGISTER</button>
+            <button id="header-login" class="btn btn-light pl-3 link-to-register">LOGIN</button>
           </div>
-          <!-- Collapsible wrapper -->
         </div>
-        <!--ui- Container wrapper -->
-      </nav>
+        <!-- Collapsible wrapper -->
+      </div>
+    </nav>
       <div class="input-group searchContainer pt-4 d-flex justify-content-center" style="width:100%;" >
         <div class="form-outline">
           <input type="search" id="searchForm" class="form-control md-form   " style="width: 75vw"/>
@@ -119,7 +110,7 @@
                         </p>
                     </div>
                     <div class="card-footer">
-                        <button class="btn btn-primary">
+                        <button id="join-push-up" class="btn btn-primary">
                             JOIN NOW
                         </button>
                     </div>
@@ -140,7 +131,7 @@
                                 </p>
                             </div>
                             <div class="card-footer">
-                                <button class="btn btn-primary">
+                                <button id="join-run" class="btn btn-primary">
                                     JOIN NOW
                                 </button>
                             </div>
@@ -163,7 +154,7 @@
                         </p>
                     </div>
                     <div class="card-footer">
-                        <button class="btn btn-primary">
+                        <button id="join-jump-rope" class="btn btn-primary">
                             JOIN NOW
                         </button>
                     </div>
@@ -183,7 +174,7 @@
                             <p>The most popular abs exercise in the world! Try for five minutes per day!</p>
                         </div>
                         <div class="card-footer">
-                            <button class="btn btn-primary">
+                            <button id="join-sit-up" class="btn btn-primary">
                                 JOIN NOW
                             </button>
                         </div>  
@@ -191,6 +182,10 @@
                 </div>
             </div>
       </div>
+      <footer id="footer" class="container-fluid text-center mt-3" style="background-color: black; color: #f3f3f3">
+        <div>SportConnect Version 1.0 - Created in Appjamming Summit 2020</div>
+
+      </footer>
       <script src="./js/mdb.min.js"></script>
       <script src="./js/searchBar.js"></script>
 </body>
