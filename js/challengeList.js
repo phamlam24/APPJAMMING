@@ -1,17 +1,3 @@
-$(".fa-heart").click(function() {
-    if($(this).hasClass("far")){
-        $(this).removeClass("far");
-        $(this).addClass("fas");
-        let peopleLiked = String(parseInt($(this).siblings(".peopleLiked").text()) + 1);
-        $(this).siblings(".peopleLiked").html(peopleLiked);
-    }
-    else{
-        $(this).removeClass("fas");
-        $(this).addClass("far");
-        let peopleLiked = String(parseInt($(this).siblings(".peopleLiked").text()) - 1);
-        $(this).siblings(".peopleLiked").html(peopleLiked);
-    }
-})
 firebase.auth().onAuthStateChanged(function(user) {
     if (user) {
       // User is signed in.
@@ -34,5 +20,6 @@ firebase.auth().onAuthStateChanged(function(user) {
     })
     } else {
       // No user is signed in.
+      console.log('die lol')
     }
   });

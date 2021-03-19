@@ -14,4 +14,7 @@ body {
 *{
   font-family: "Open Sans", sans-serif;
 }
+.message p{
+  display: none;
+}
 /*# sourceMappingURL=loginPage.css.map */

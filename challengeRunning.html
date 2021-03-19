@@ -1,184 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-      rel="stylesheet"
-    />
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- MDB -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
-      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/abtChallenge/abtChallenge.css"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="css/header.css">
 
-    <title>About Challenge: Running</title>
-  </head>
-  <body> 
-    <!-- <div class="container-fluid"> -->
-      <!-- Navbar --> 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
-        <!-- Container wrapper -->
-        <div class="container-fluid">
-          <!-- Navbar brand -->
-          <a class="navbar-brand" href="index.html">SportConnect</a>
-  
-          <!-- Toggle button -->
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-mdb-toggle="collapse"
-            data-mdb-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i class="fas fa-bars"></i>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/abtChallenge/abtChallenge.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="css/header.css">
+
+  <title>About Challenge: Running</title>
+</head>
+
+<body>
+  <!-- <div class="container-fluid"> -->
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="index.html">SportConnect</a>
+
+      <!-- Toggle button -->
+      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Left links -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="challengeList.html">Challenges</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutUs.html">About Us</a>
+          </li>
+          <!-- Navbar dropdown -->
+        </ul>
+        <!-- Left links -->
+
+        <!-- login register btn -->
+        <div class="d-flex justify-content-around">
+          <button id="header-register" class="btn btn-primary link-to-register">
+            REGISTER
           </button>
-  
-          <!-- Collapsible wrapper -->
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <!-- Left links -->
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="challengeList.html">Challenges</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="aboutUs.html">About Us</a>
-              </li>
-              <!-- Navbar dropdown -->
-            </ul>
-            <!-- Left links -->
-  
-            <!-- login register btn -->
-            <div class="d-flex justify-content-around">
-              <button
-                id="header-register"
-                class="btn btn-primary link-to-register"
-              >
-                REGISTER
-              </button>
-              <button
-                id="header-login"
-                class="btn btn-light pl-3 link-to-register"
-              >
-                LOGIN
-              </button>
-            </div>
-          </div>
-          <!-- Collapsible wrapper -->
-        </div>
-      </nav>
-    <div class="container-fluid row pt-2 content-container">
-      <div class="col-lg-6 video-and-posts">
-        
-        <div class="seperator p-1"></div>
-        <div class="card">
-          <div class="card-header">
-            <h5>Trio69</h5>
-          </div>
-          <div class="card-body">
-            <div class="photo-container row">
-              <img src="assets/img/run_2.jpg" ></img>
-            </div>
-          </div>
-          <div class="card-footer d-flex justify-content-left align-items-center">
-            <span class="peopleLiked">16</span>
-            <i class="far fa-heart p-2" style="color: rgb(247, 108, 108); font-size: 25px"></i>
-            <i
-              class="far fa-comment"
-              style="color: rgb(110, 110, 241); font-size: 25px"
-            ></i>
-            <!-- <i class="fas fa-comment" style="color: rgb(210, 210, 250); font-size: 25px"></i> -->
-          </div>
-        </div>
-        <div class="seperator p-1"></div>
-        <div class="card">
-          <div class="card-header">
-            <h5>Pham Tung Lam</h5>
-          </div>
-          <div class="card-body">
-            <div class="photo-container row">
-              <img src="assets/img/run_1.png" ></img>
-            </div>
-          </div>
-          <div class="card-footer d-flex justify-content-left align-items-center">
-            <div class="d-flex justify-content-left align-items-center likes-container">
-              <span class="peopleLiked">9</span>
-            <i class="far fa-heart p-2" style="color: rgb(243, 59, 59); font-size: 25px"></i>
-            </div>
-            
-            <i
-              class="far fa-comment"
-              style="color: rgb(110, 110, 241); font-size: 25px"
-            ></i>
-            <!-- <i class="fas fa-comment" style="color: rgb(210, 210, 250); font-size: 25px"></i> -->
-          </div>
+          <button id="header-login" class="btn btn-light pl-3 link-to-register">
+            LOGIN
+          </button>
         </div>
       </div>
-      <div class="col-lg-6 position-relative">
-        <div class="container position-sticky">
-          <div class="description pb-2">
-            <h1>Description</h1>
-            <p>Post your records of your running activities here!</p>
-            <p>Beginner Challenge: 3km</p>
-            <p>Intermediate Challenge: 5km</p>
-            <p>Advanced Challenge: 10km</p>
-            <p>Master Challenge: 21km (Half Marathon)</p>
+      <!-- Collapsible wrapper -->
+    </div>
+  </nav>
+  <div class="container-fluid row pt-2 content-container">
+    <div class="col-lg-6 video-and-posts">
+
+      <div class="seperator p-1"></div>
+      <div class="card">
+        <div class="card-header">
+          <h5>Trio69</h5>
+        </div>
+        <div class="card-body">
+          <div class="photo-container row">
+            <img src="assets/img/run_2.jpg"></img>
           </div>
-          <div class="submit">
-            <form action="" class="card form-control" style="width: 100%;">
-              <div class="card-header">
-                <div class="card-title"><h3>SUBMIT YOUR ACHIEVEMENT</h3></div>
-              </div>
-              <div class="card-body">
-                <input type="file" id="img" name="vid" accept="image/*">
-              
-              </div>
-              <div class="card-footer">
-                <button class="summitBtn btn btn-primary" type="submit">SUBMIT YOUR ACHIEVEMENT</button>
-              </div>
-            </form>
-            
+        </div>
+        <div class="card-footer d-flex justify-content-left align-items-center">
+          <span class="peopleLiked">16</span>
+          <i class="far fa-heart p-2" style="color: rgb(247, 108, 108); font-size: 25px"></i>
+          <i class="far fa-comment" style="color: rgb(110, 110, 241); font-size: 25px"></i>
+          <!-- <i class="fas fa-comment" style="color: rgb(210, 210, 250); font-size: 25px"></i> -->
+        </div>
+      </div>
+      <div class="seperator p-1"></div>
+      <div class="card">
+        <div class="card-header">
+          <h5>Pham Tung Lam</h5>
+        </div>
+        <div class="card-body">
+          <div class="photo-container row">
+            <img src="assets/img/run_1.png"></img>
           </div>
+        </div>
+        <div class="card-footer d-flex justify-content-left align-items-center">
+          <div class="d-flex justify-content-left align-items-center likes-container">
+            <span class="peopleLiked">9</span>
+            <i class="far fa-heart p-2" style="color: rgb(243, 59, 59); font-size: 25px"></i>
+          </div>
+
+          <i class="far fa-comment" style="color: rgb(110, 110, 241); font-size: 25px"></i>
+          <!-- <i class="fas fa-comment" style="color: rgb(210, 210, 250); font-size: 25px"></i> -->
         </div>
       </div>
     </div>
-    <footer id="footer" class="container-fluid text-center mt-4 " style="background-color: black; color: #f3f3f3">
-      <div>SportConnect Version 1.0 - Created for Appjamming Summit 2021</div>
+    <div class="col-lg-6 position-relative">
+      <div class="container position-sticky">
+        <div class="description pb-2">
+          <h1>Description</h1>
+          <p>Post your records of your running activities here!</p>
+          <p>Beginner Challenge: 3km</p>
+          <p>Intermediate Challenge: 5km</p>
+          <p>Advanced Challenge: 10km</p>
+          <p>Master Challenge: 21km (Half Marathon)</p>
+        </div>
+        <div class="submit">
+          <form action="" class="card form-control" style="width: 100%;">
+            <div class="card-header">
+              <div class="card-title">
+                <h3>SUBMIT YOUR ACHIEVEMENT</h3>
+              </div>
+            </div>
+            <div class="card-body">
+              <input type="file" id="img" name="vid" accept="image/*">
 
-    </footer>
-    <!-- </div> -->
-    
+            </div>
+            <div class="card-footer">
+              <button class="summitBtn btn btn-primary" type="submit">SUBMIT YOUR ACHIEVEMENT</button>
+            </div>
+          </form>
 
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"
-    ></script>
-    <script src="./js/abtChallenge.js"></script>
-    <script src="js/index.js"></script>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer id="footer" class="container-fluid text-center mt-4 " style="background-color: black; color: #f3f3f3">
+    <div>SportConnect Version 1.0 - Created for Appjamming Summit 2021</div>
 
-  </body>
+  </footer>
+  <!-- </div> -->
+
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script>
+  <script src="./js/abtChallenge.js"></script>
+  <script src="js/index.js"></script>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+   https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
+<script src="./js/firebase.js"></script>
+</body>
+
 </html>

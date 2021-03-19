@@ -82,7 +82,7 @@
           <!-- Left links -->
 
           <!-- login register btn -->
-          <div class="d-flex justify-content-around">
+          <div class="d-flex justify-content-around user-placeholder">
             <button
               id="header-register"
               class="btn btn-primary link-to-register"
@@ -204,8 +204,25 @@
 
       </footer>
       <script src="./js/mdb.min.js"></script>
-      <script src="./js/searchBar.js"></script>
-      <script src="js/index.js"></script>
+       <!-- The core Firebase JS SDK is always required and must be listed first -->
+       <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
 
+       <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#available-libraries -->
+       <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
+       
+         <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+         <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+       
+         <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+         <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
+       
+         <!-- Add Firebase products that you want to use -->
+         <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+         <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-firestore.js"></script>
+         <script src="./js/firebase.js"></script>
+         <script src="./js/index.js"></script>
+      <script src="./js/searchBar.js"></script>
+      <script src="./js/challengeList.js"></script>
 </body>
 </html>
