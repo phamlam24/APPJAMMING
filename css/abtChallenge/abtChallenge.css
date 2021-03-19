@@ -28,3 +28,12 @@ button {
   max-height: 500px; 
   width: auto; 
 }
+.description{
+  width: 100%;
+  background-color: white;
+  margin: 1em;
+  margin-left: 0;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px lightgray;
+}
