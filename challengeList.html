@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
       rel="stylesheet"
@@ -14,35 +14,35 @@
       rel="stylesheet"
     />
     <!-- MDB -->
-    <link
-      href="./css/mdb.min.css"
-      rel="stylesheet"
-    />
+    <link href="./css/mdb.min.css" rel="stylesheet" />
 
     <!-- font -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>All Challenges</title>
     <style>
-        body{
-            height: fit-content;
-            background-color: #f3f3f3;
-        }
-        nav{
-            top: 0; 
-            z-index: 100; 
-        }
-        ul{
-            column-count: 3;
-        }
+      body {
+        height: fit-content;
+        background-color: #f3f3f3;
+      }
+      nav {
+        top: 0;
+        z-index: 100;
+      }
+      ul {
+        column-count: 3;
+      }
     </style>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/header.css">
-
-</head>
-<body>
-    <!-- Navbar --> 
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/challengeList/challengeList.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
       <!-- Container wrapper -->
       <div class="container-fluid">
@@ -67,12 +67,12 @@
           <!-- Left links -->
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html"
-                >Home</a
-              >
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="challengeList.html">Challenges</a>
+              <a class="nav-link active" href="challengeList.html"
+                >Challenges</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="aboutUs.html">About Us</a>
@@ -100,112 +100,147 @@
         <!-- Collapsible wrapper -->
       </div>
     </nav>
-      <div class="input-group searchContainer pt-4 d-flex justify-content-center" style="width:100%;" >
-        <div class="form-outline">
-          <input type="search" id="searchForm" class="form-control md-form   " style="width: 75vw"/>
-          <label class="form-label" for="form1">Search</label>
+    <div
+      class="input-group searchContainer pt-4 d-flex justify-content-center searchBar"
+      style="width: 100%"
+    >
+      <div class="form-outline">
+        <input
+          type="search"
+          id="searchForm"
+          class="form-control md-form"
+          style="width: 75vw"
+        />
+        <label class="form-label" for="form1">Search for a challenge...</label>
+      </div>
+      <button type="button" class="btn btn-primary">
+        <i class="fas fa-search"></i>
+      </button>
+    </div>
+    <h2 class="mt-2" style="text-align: center">Choose your challenge</h2>
+    <div class="features pt-4">
+      <div class="row d-flex flex-row justify-content-around">
+        <div class="col-lg-4 col-md-5">
+          <div class="card p-2 challenge-box">
+            <div class="card-header"><h4>Push Up Challenge</h4></div>
+            <div class="card-body">
+              <img
+                style="width: 100%"
+                src="https://assets.gqindia.com/photos/5cee7eb00379a73d25177759/master/pass/Pushup.jpg"
+                alt=""
+              />
+              <div class="card-header mt-1">
+                <h5>
+                  <i class="fas fa-dumbbell"></i>
+                  <span>Upper-body Exercise</span>
+                </h5>
+              </div>
+              <p>
+                Push-up is one of the most iconic strength exercises. Anyone can
+                practice and see considerable improvements to their upper-body
+                strength!
+              </p>
+            </div>
+            <div class="card-footer">
+              <button id="join-push-up" class="btn btn-primary">
+                JOIN NOW
+              </button>
+            </div>
+          </div>
         </div>
-        <button type="button" class="btn btn-primary">
-          <i class="fas fa-search"></i>
-        </button>
-      </div>
-      <div class="features pt-4">
-          
-            <div class="row d-flex flex-row justify-content-around">
-                <div class="col-lg-4 col-md-5">
-                <div class="card p-2 challenge-box">
-                    <div class="card-header">
-                        Push Up Challenge
-                    </div>
-                    <div class="card-body">
-                        <img style="width: 100%; " src="https://assets.gqindia.com/photos/5cee7eb00379a73d25177759/master/pass/Pushup.jpg" alt="">
-                        <div class="card-header">
-                            Upper-body Exercise
-                        </div>
-                        <p>Push-up is one of the most iconic strength exercises. Anyone can practice
-                           and see considerable improvements to their upper-body strength!
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <button id="join-push-up" class="btn btn-primary">
-                            JOIN NOW
-                        </button>
-                    </div>
-                </div>
-                </div>
-                <div class="col-lg-4 col-md-5">
-                        <div class="card p-2 challenge-box">
-                            <div class="card-header">
-                                Long-distance Running Challenge
-                            </div>
-                            <div class="card-body">
-                                <img style="width: 100%; " src="https://i.pinimg.com/originals/9b/a2/af/9ba2af7486950a926c19763bbe7c05b3.jpg" alt="">
-                                <div class="card-header">
-                                    Cardio Exercise
-                                </div>
-                                <p>Running is the easiest sport to play - grab your shoes on and start hitting
-                                  the road! However, to reach your goals, you have to be strong and durable both in your body and mind.
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button id="join-run" class="btn btn-primary">
-                                    JOIN NOW
-                                </button>
-                            </div>
-                          </div>
-                </div>
+        <div class="col-lg-4 col-md-5">
+          <div class="card p-2 challenge-box">
+            <div class="card-header"><h4>Long-distance Running Challenge</h4></div>
+            <div class="card-body ">
+              <img
+                style="width: 100%"
+                src="https://i.pinimg.com/originals/9b/a2/af/9ba2af7486950a926c19763bbe7c05b3.jpg"
+                alt=""
+              />
+              <div class="card-header mt-1">
+                <h5>
+                  <i class="fas fa-heartbeat "></i>
+                  <span>Cardio Exercise</span>
+                </h5>
+              </div>
+              <p>
+                Running is the easiest sport to play - grab your shoes on and
+                start hitting the road! However, to reach your goals, you have
+                to be strong and durable both in your body and mind.
+              </p>
             </div>
-            <div class="row pt-4 d-flex flex-row justify-content-around">
-                <div class="col-lg-4 col-md-5">
-                <div class="card p-2 challenge-box">
-                    <div class="card-header">
-                        Jump-rope Challenge
-                    </div>
-                    <div class="card-body">
-                        <img style="width: 100%; " src="assets/img/jump-rope-skipping-isolated-on-260nw-1028024359.jpg" alt="">
-                        <div class="card-header">
-                            Cardio Exercise
-                        </div>
-                        <p>A simple exercise we probably played when we were kids, but to master the rope, you have
-                          to be very strong on your feet and be body-coordinative!
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <button id="join-jump-rope" class="btn btn-primary">
-                            JOIN NOW
-                        </button>
-                    </div>
-                </div>
-                </div>
-    
-                <div class="col-lg-4 col-md-5">
-                    <div class="card p-2 challenge-box">
-                        <div class="card-header">
-                            Crunch Challenge
-                        </div>
-                        <div class="card-body">
-                            <img style="width: 100%; " src="https://www.wikihow.com/images/a/a4/Do-Sit-Ups-Step-6-Version-7.jpg" alt="">
-                            <div class="card-header">
-                                Core Exercise
-                            </div>
-                            <p>The most popular abs exercise in the world! Try for five minutes per day!</p>
-                        </div>
-                        <div class="card-footer">
-                            <button id="join-crunch" class="btn btn-primary">
-                                JOIN NOW
-                            </button>
-                        </div>  
-                    </div>
-                </div>
+            <div class="card-footer">
+              <button id="join-run" class="btn btn-primary">JOIN NOW</button>
             </div>
+          </div>
+        </div>
       </div>
-      <footer id="footer" class="container-fluid text-center mt-4" style="background-color: black; color: #f3f3f3">
-        <div>SportConnect Version 1.0 - Created for Appjamming Summit 2021</div>
+      <div class="row pt-4 d-flex flex-row justify-content-around">
+        <div class="col-lg-4 col-md-5">
+          <div class="card p-2 challenge-box">
+            <div class="card-header"><h4>Jump-rope Challenge</h4></div>
+            <div class="card-body">
+              <img
+                style="width: 100%"
+                src="assets/img/jump-rope-skipping-isolated-on-260nw-1028024359.jpg"
+                alt=""
+              />
+              <div class="card-header mt-1">
+                <h5>
+                  <i class="fas fa-heartbeat"></i>
+                  <span>Cardio Exercise</span>
+                </h5>
+              </div>
+              <p>
+                A simple exercise we probably played when we were kids, but to
+                master the rope, you have to be very strong on your feet and be
+                body-coordinative!
+              </p>
+            </div>
+            <div class="card-footer">
+              <button id="join-jump-rope" class="btn btn-primary">
+                JOIN NOW
+              </button>
+            </div>
+          </div>
+        </div>
 
-      </footer>
-      <script src="./js/mdb.min.js"></script>
-      <script src="./js/searchBar.js"></script>
-      <script src="js/index.js"></script>
-
-</body>
+        <div class="col-lg-4 col-md-5">
+          <div class="card p-2 challenge-box">
+            <div class="card-header"><h4>Crunch Challenge</h4></div>
+            <div class="card-body">
+              <img
+                style="width: 100%"
+                src="https://www.wikihow.com/images/a/a4/Do-Sit-Ups-Step-6-Version-7.jpg"
+                alt=""
+              />
+              <div class="card-header mt-1">
+                <h5>
+                  <i class="fas fa-dumbbell"></i>
+                  <span>Abs Exercise</span>
+                </h5>
+              </div>
+              <p>
+                The most popular abs exercise in the world! Try for five minutes
+                per day!
+              </p>
+            </div>
+            <div class="card-footer">
+              <button id="join-crunch" class="btn btn-primary">JOIN NOW</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer
+      id="footer"
+      class="container-fluid text-center mt-4"
+      style="background-color: black; color: #f3f3f3"
+    >
+      <div>SportConnect Version 1.0 - Created for Appjamming Summit 2021</div>
+    </footer>
+    <script src="./js/mdb.min.js"></script>
+    <script src="./js/searchBar.js"></script>
+    <script src="js/index.js"></script>
+  </body>
 </html>

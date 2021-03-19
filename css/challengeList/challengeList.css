@@ -1,0 +1,20 @@
+.searchBar{
+    width: 80%;
+    padding: 30px;
+    margin: auto;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    background-color: white;
+}
+.form-outline{
+    background-color: white;
+}
+.challenge-box .card-body p{
+    margin-top: 8px;
+}
+.challenge-box{
+    border-radius: 12px;
+}
+.fas{
+    margin-right: 10px;
+}
